@@ -1,0 +1,186 @@
+/* ESTILOS GENERALES */
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* HEADER */
+ .header {
+   min-width: 1024px;
+   width: 100%;
+   height: 250px;
+   margin: 0px auto;
+ }
+
+ .header .tituloPrincipal .linkTitulo {
+   text-decoration: none;
+ }
+
+ .header .logotipo {
+   width: 770px;
+   margin: 0px auto;
+   padding-top: 20px;
+ }
+
+ .header .logotipo .imgcss {
+   display: block;
+   text-align: center;
+   margin: 0px auto;
+   width: 140px;
+   /* box-shadow: 2px 2px 5px darkblue; */
+ }
+
+ .header .tituloPrincipal {
+   text-align: center;
+   font-size: 40px;
+   text-shadow:1px 1px 3px gray;
+ }
+
+ .header .tituloPrincipal .linkTitulo {
+   color: orangered;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   margin-top: 10px;
+ }
+
+ /* NAV */
+
+ .nav {
+   background-color: #333;
+   height: 40px;
+   width: 100%;
+   font-size: 1em;
+   box-shadow: 0px 2px 3px gray;  
+ }
+
+ .nav .lista {
+   list-style: none;
+   text-decoration: none;
+   margin: 0px auto;
+   width: 1130px;
+ }
+
+ .nav .lista .itemLista {
+   line-height: 40px;
+   float: left;
+   border-right: 1px solid gray;
+ }
+
+ .nav .lista .itemLista a {
+   color: #fff;
+   display: block;
+   padding: 0px 20px 0px 20px;
+   text-decoration: none;
+ }
+  
+ .nav .lista .itemLista a:first-child {
+   border-left: 1px solid gray;
+ }
+
+ .nav .lista .itemLista:hover {
+   background-color: #70b231;
+   box-shadow: 0px 0px 4px green inset;
+ }
+
+ .nav .lista .itemLista ul {
+   display: none;
+   position: absolute;
+   color: #fff;
+   text-align: left;
+   width: 160px;
+   box-shadow: 0px 2px 2px gray;
+   z-index: 1;
+ }
+
+ .nav .lista .itemLista:hover ul {
+   display: block;
+ }
+
+.nav .lista .itemLista:hover ul li {
+  background-color: #70b231;
+  border: 1px solid gray;
+  padding-left: 20px;
+  line-height: 25px;
+}
+
+/* CONTENIDO LATERAL IZQUIERDO*/
+.contenido {
+  width: 1250px;
+  min-height: 1100px;
+  margin: 0px auto;
+}
+
+.aside {
+  width: 200px;
+  float: left;
+  margin: 30px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 2px #ccc;
+}
+
+.aside .login {
+  display: block;
+  width: 180px;
+  margin: 4px auto;
+  padding: 8px 10px 8px 10px;
+  font-size: 14px;
+  border-bottom: 1px dashed #ccc;
+}
+
+.aside .login:last-child {
+  margin-bottom: 20px;
+}
+
+.aside .login h3 {
+  display: block;
+  width: 100%;
+  color: #333;
+  text-align: center;
+  padding: 2px 0px 2px 0px;
+  background-color: #f2f3f2;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+}
+
+/* FORMULARIOS ESTILOS GENERALES */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  border: 1px solid #c9c9c9;
+  box-shadow: 0px 0px 2px #ccc inset;
+  background-color: #fff;
+  padding: 2px 0px 2px 0px;
+  color: gray;
+  transition: all 300ms; 
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+  border: 1px solid #70b231;
+  color: #000;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button {
+  display: block;
+  border-radius: 2px;
+  border: 1px solid green;
+  width: 60px;
+  padding: 3px;
+  background-color: #70b231;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+}
+
+.botonEnviar {
+  margin-top: 5px;
+}
