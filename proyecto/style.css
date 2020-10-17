@@ -5,6 +5,19 @@
   padding: 0px;
 }
 
+a {
+  color: #529125;
+  text-decoration: none;
+}
+
+a:visited {
+  color:  #529125;
+}
+
+a:hover{
+  color: #285616;
+}
+
 /* HEADER */
  .header {
    min-width: 1024px;
@@ -138,11 +151,17 @@
   width: 100%;
   color: #333;
   text-align: center;
+  margin-bottom: 15px;
   padding: 2px 0px 2px 0px;
   background-color: #f2f3f2;
   border: 1px solid #ccc;
   border-left: none;
   border-right: none;
+}
+
+.aside .login li {
+  margin: 8px 0px 5px 20px;
+  list-style: square;
 }
 
 /* FORMULARIOS ESTILOS GENERALES */
@@ -178,6 +197,18 @@ button {
   background-color: #70b231;
   cursor: pointer;
   color: #fff;
+  text-align: center;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button {
+  box-shadow: 0px 0px 2px gray;
+}
+
+.aside label, input {
+  margin: 0px auto;
   text-align: center;
 }
 
