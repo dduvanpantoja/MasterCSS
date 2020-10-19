@@ -120,7 +120,7 @@ a:hover{
 /* CONTENIDO LATERAL IZQUIERDO*/
 .contenido {
   width: 1250px;
-  min-height: 1100px;
+  /*min-height: 1100px;*/
   margin: 0px auto;
 }
 
@@ -214,4 +214,47 @@ button {
 
 .botonEnviar {
   margin-top: 5px;
+}
+
+/* SECCIONES */
+.sections {
+  float: left;
+  font-family: sans-serif, Arial;
+  width: 1000px;
+  margin-right: 20px;
+}
+
+.sections .frontend,
+.sections .backend,
+.sections .instructor {
+  margin-top: 40px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 4px #c9c9c9;
+  color: #333;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.sections #frontend .stikers .stikerOne, .stikerTwo,
+.sections #backend .stikers .stikerOne, .stikerTwo,
+.sections #instructor .stikers .stikerOne, .stikerTwo {
+  width: 28px;  
+}
+
+.sections .titulo {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 26px;
+  font-weight: inherit;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+.far {
+  color: darkcyan;
+  font-size:  30px;
+  font-weight: 200;
 }
