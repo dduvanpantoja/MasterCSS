@@ -258,3 +258,12 @@ button {
   font-size:  30px;
   font-weight: 200;
 }
+
+.sections .article {
+  margin: 20px 10px;
+}
+
+.sections .date {
+  color: gray;
+  font-size: 14px;
+}
