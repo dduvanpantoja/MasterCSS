@@ -267,3 +267,29 @@ button {
   color: gray;
   font-size: 14px;
 }
+
+/* HISTORIAL */
+#history {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+/* FOOTER */
+#footer {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+  margin-top: 40px;
+  background-color: #333;
+  padding: 10px 0px 10px 0px;
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 0px 0px 2px gray;
+
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
