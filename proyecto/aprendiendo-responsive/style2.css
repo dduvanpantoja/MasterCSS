@@ -54,3 +54,20 @@
   float: none;
   clear: both;
 }
+
+/* RESPONSIVE */
+
+/* Desde la anchura 0px hasta la anchura 888px de pantalla*/
+/*@media (max-width: 888px) {
+  /* Se ejecutaran estos estilos */
+
+  /*.articles .article {
+    width: 90%; 
+  }
+}
+*/
+@media (max-width : 966px) {
+  .articles .article {
+    width: 43%;
+  }
+}
