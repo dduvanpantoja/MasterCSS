@@ -195,3 +195,13 @@ body {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+
+.aside .search {
+  width: 90%;
+  height: 30px;
+  margin: 10px auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px #ccc inset ;
+}
